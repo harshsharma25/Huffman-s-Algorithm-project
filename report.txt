@@ -1,0 +1,70 @@
+Huffman’s Algorithm: A Comprehensive Report
+
+1. Introduction to Huffman Algorithm
+
+	Huffman’s Algorithm, developed by David A. Huffman in 1952, is a lossless data compression technique.		
+	It efficiently encodes data by assigning shorter codes to more frequent symbols, resulting in optimal compression.
+
+
+2. Basics of Binary Encoding
+
+    Huffman coding represents data using binary codes (0s and 1s).
+    Each symbol (character, pixel, etc.) is assigned a unique binary code.
+    The goal is to minimize the average code length.
+
+
+3. Need for Huffman Coding
+
+    Traditional fixed-length encoding wastes space for infrequent symbols.
+    Huffman coding adapts to the actual symbol frequencies, reducing redundancy.
+
+
+4. Understanding Frequency Tables
+
+    Construct a frequency table for input symbols.
+    Sort symbols by frequency (ascending or descending).
+
+
+5. Constructing the Huffman Tree
+
+    Create a forest of singleton trees (each containing a symbol and its frequency).
+    Repeatedly merge the two trees with the lowest frequencies into a new tree until only
+    one tree remains—the Huffman tree.Assign 0 to left branches and 1 to right branches.
+
+
+6. Assigning Huffman Codes
+
+    Traverse the Huffman tree to assign unique binary codes to each symbol.
+    Codes are prefix-free (no code is a prefix of another).
+
+
+7. Advantages of Huffman Coding
+
+    Optimal compression: Huffman codes minimize the average code length.
+    Efficient decoding: No ambiguity in code interpretation.
+    Widely used in file compression (e.g., ZIP files).
+
+
+8. Real-World Applications
+
+    Text compression: Reduces file sizes for storage and transmission.
+    Image compression: JPEG and GIF formats use Huffman coding.
+    Network protocols: Huffman coding optimizes data transmission.
+
+
+9. Limitations of Huffman Coding
+
+    Requires knowledge of symbol frequencies in advance.
+    Sensitive to changes in input distribution (adaptive variants exist).
+
+
+10. Conclusion
+
+    Huffman’s Algorithm is a powerful tool for data compression. By intelligently assigning variable-length codes, 
+    it achieves efficient storage and transmission. Understanding its principles and applications is essential in 
+    the field of information theory.
+
+    Source 
+    
+    - Data Structure and Algorithm book( sushil goel )
+    -youtube.com
