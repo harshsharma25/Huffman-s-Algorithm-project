@@ -1,4 +1,5 @@
 Topic name : Huffman’s Algorithm
+submitted to : prageesha mam 
 
 Introduction
 
