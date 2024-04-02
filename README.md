@@ -69,5 +69,5 @@ Work: assit to harsh in resarch and development of ppt
 
 3. Vijay Sharma (Roll No. 28)
 
-Work: asit to harsh in creating of report
+Work: assit to harsh in creating of report
 
