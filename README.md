@@ -62,7 +62,7 @@ Contributors & Teammates :
 
 1. Harsh Sharma (Roll No. 44)
 
-Work: Major contribution is  done by  him .He atually perform all the task
+Work: Major contribution is  done by  him .He actually perform all the task
 
 2. Aman Solanki (Roll No. 48)
 
